@@ -1,0 +1,29 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+   
+
+    double a,b;
+
+    char c;
+    string s;
+    cin >>a>>c>>b;
+
+if (c=='+')
+cout <<a+b;
+else if(c=='-')
+cout <<a-b;
+else if (c=='*')
+cout <<a*b;
+else if (c=='/')
+cout<<a/b;
+else if (c=='^')
+    cout << pow(a,b);
+
+
+
+
+}
